@@ -23,5 +23,6 @@
     "server": "nodemon server.js",
     "client": "yarn start --prefix /client",
     "dev": "concurrently -r -k \"yarn run server\" \"yarn run client\""
-  }
+  },
+  "proxy":"http://localhost:5000"
 }
